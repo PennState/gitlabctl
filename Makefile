@@ -6,4 +6,4 @@ GITFILE = .go-project.mk
 # Override your docker tag here, otherwise it'll use your PWD
 # DOCKER_TAG = everything-is-awesome
 
--include $(shell test -f .go-project.mk || git archive --remote=ssh://git@$(GITURL) HEAD:$(GITPROJECT) $(GITFILE) | tar -x ; echo .go-project.mk)
+-include $(shell test -f .go-project.mk || git archive --remote=ssh://git@$(GITURL) homebrew:$(GITPROJECT) $(GITFILE) | tar -x ; echo .go-project.mk)
