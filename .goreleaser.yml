@@ -36,4 +36,5 @@ brews:
     owner: pennstate
     name: homebrew-tap
   folder: Formula
+  token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
 
