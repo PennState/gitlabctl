@@ -1,4 +1,4 @@
 include:
   - project: k8s/gitlab-ci-templates
-    ref: master
+    ref: homebrew
     file: swe-golang-binary/.gitlab-ci.yml
