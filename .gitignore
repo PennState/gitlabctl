@@ -1,6 +1,1 @@
-.go-project.mk
-.goreleaser.yml
-devtool
-.devtool.config
-.vscode
 dist/
