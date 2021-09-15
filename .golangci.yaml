@@ -1,0 +1,5 @@
+severity:
+  default-severity: info
+linters-settings:
+  errcheck:
+    ignore: .*
